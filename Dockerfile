@@ -11,4 +11,6 @@ VOLUME /var/www/html
 WORKDIR /etc/nginx
 EXPOSE 80
 
+ENV CONTENT This text from the CONTENT variable
+
 CMD ["nginx", "-g", "daemon off;"]
